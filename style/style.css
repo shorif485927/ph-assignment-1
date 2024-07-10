@@ -24,6 +24,10 @@
             width: 852px;
             margin: 0 auto;}
 
+            h3{
+                text-transform: capitalize;
+            }
+
        
       /*  common code ends  */
 
@@ -33,7 +37,7 @@
 
         .banner{
               width: 100%;
-               height: 520px;
+               height: 580px;
                 background-image: url('../assets/Hero-bg.png');
                 background-repeat: no-repeat;
                 background-size: cover;
@@ -87,6 +91,8 @@ font-size: 15px;
 font-weight: 600;
   border: none;
     text-transform: lowercase;
+    margin-bottom: 30px;
+    text-transform: capitalize;
    }
 
       /* banner ends  */
@@ -263,6 +269,7 @@ margin-top: 20px;
 text-align: center;
 padding: 60px 45px;
 border-radius: 10px;
+margin: 80px;
       }
 
 
@@ -296,4 +303,41 @@ text-align: center;
 
 padding: 11px;
 border: none;
+      }
+
+
+
+
+      /* footer section starts  */
+
+
+      footer{
+
+        margin-top: 50px;
+
+        padding: 40px;
+        border-radius: 16px;
+
+        background: rgba(13, 19, 33, 0.03);
+      }
+
+      footer .container{
+         display: flex;
+         justify-content: space-between;
+      }
+
+      footer .footer__info{
+        color: rgb(13, 19, 33);
+        font-family: Azeret Mono;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 23px;
+        letter-spacing: 0%;
+        text-align: center;
+      }
+
+
+      footer .foonter__links ul li{
+display: inline-block;
+margin-left: 15px;
       }
