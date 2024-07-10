@@ -20,7 +20,7 @@
              text-decoration: none;
          }
 
-
+       
       /*  common code ends  */
 
 
@@ -38,6 +38,7 @@
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
+                margin-bottom: 74px;
         }
 
    .banner  .banner__details{
@@ -85,3 +86,86 @@ font-weight: 600;
    }
 
       /* banner ends  */
+
+
+
+      /* web magic section starts   */
+
+      .web__magic{
+         width: 852px;
+         margin: 0 auto;
+
+      }
+
+
+      .web__magic .web__codding__info{
+         width: 500px;
+      }
+
+         .web__magic .web__title h3{
+            color: rgb(13, 19, 33);
+            font-family: Azeret Mono;
+            font-size: 32px;
+            font-weight: 800;
+            line-height: 37px;
+            letter-spacing: 0%;
+            text-align: center;
+         }
+
+
+         .web__magic .web__title_desk{
+             
+            color: rgb(13, 19, 33);
+            font-family: Azeret Mono;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 26px;
+            letter-spacing: 0%;
+            text-align: center;
+            margin: 24px 0 100px;
+         }
+
+
+         .web__codding{
+             display: flex;
+             justify-content: space-between;
+            margin-bottom: 100px;
+         }
+
+         .web__codding h4{
+            color: rgba(13, 19, 33, 0.7);
+font-family: Azeret Mono;
+font-size: 18px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+         }
+
+         .web__codding p{
+            color: rgb(13, 19, 33);
+            font-family: Azeret Mono;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 26px;
+            letter-spacing: 0%;
+            text-align: left;
+              margin: 20px 0;
+         } 
+
+         .web__codding button{
+            color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 15px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+            border: 1px solid rgb(13, 19, 33);
+            opacity: 0.7;
+            padding: 12px;
+            
+         }
+
+
+      /* web magic section ends  */
